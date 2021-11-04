@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-gold {
+    @apply rounded-full py-3 px-6 ring-2 ring-darkGold font-bold hover:text-darkGold hover:bg-black;
+}

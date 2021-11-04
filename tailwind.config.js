@@ -3,11 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      textColor: theme => theme('colors'),
-     textColor: {
+      colors: {
       "darkGold": '#EEBC1D'
-     }
-    
+     },
     },
   },
   variants: {
