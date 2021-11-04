@@ -9,36 +9,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body class="mx-24">
        
         <div> <!--Content Wrapper-->
             <div>
-                <nav class="flex">
+                <nav class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mt-6">
                     <div>
-                        <h1 class="font-bold p-4 ml-10">
+                        <h1 class="font-bold">
                             <a href="/">DevStone</a>
                         </h1>
                     </div>
-                    <ul class="flex space-x-6 p-4 absolute right-0 mr-10">
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
+                    <div class="flex justify-end">
+                        <ul class="flex space-x-6">
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div> <!--Navbar end-->
 
             <main>
 
                 <section> <!--Welcome/About Section-->
-                    <header>
-                        <h1>Hi, I'm Dathan!</h1>
-                    </header>
+
+                        <div class="grid lg:grid-cols-2 gap-4 my-24"> <!--Wrapper-->
+
+                            <div class="max-w-2xl space-y-10">
+                                <header class="text-left font-bold text-6xl">
+                                    <h1>Hi, I'm Dathan!</h1>
+                                </header>
+                                <p class="text-xl leading-relaxed">
+                                    I'm a softare developer who primarily plays with Java(Springboot)
+                                    and relational/NoSQL databases. I also dabble with a few frontend technologies 
+                                    like React and TailwindCSS! Checkout my projects below to see what I'm working on. 
+                                </p>
+                                <div class="">
+                                    <button>Github</button>
+                                    <button>Contact Me!</button>
+                                </div>
+                            </div>
+    
+    
+                            <div class="">
+                                <img src="images/intro-image.png" alt="person that is coding">
+                            </div>
+    
+                        
+                            </div>
+                            
+                        </div>
+                   
+
                 </section>
 
                 <section> <!--Projects Section-->
