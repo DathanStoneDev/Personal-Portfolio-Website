@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body class="mx-24">
+    <body class="mx-24 font-Roboto">
        
         <div> <!--Content Wrapper-->
             <div>
@@ -33,32 +33,48 @@
                         </ul>
                     </div>
                 </nav>
-            </div> <!--Navbar end-->
+            </div><!--Navbar end-->
 
             <main>
 
                 <section> <!--Welcome/About Section-->
 
-                        <div class="grid lg:grid-cols-2 gap-4 my-24"> <!--Wrapper-->
+                        <div class="grid lg:grid-cols-2 mt-24"> <!--Wrapper-->
 
-                            <div class="max-w-2xl space-y-12">
-                                <header class="text-left font-bold text-6xl">
+                            <div class="max-w-3xl space-y-12 text-left">
+                                <header class="font-bold text-6xl pt-8">
                                     <h1>Hi, I'm Dathan!</h1>
                                 </header>
-                                <p class="text-xl leading-relaxed">
-                                    I'm a softare developer who primarily plays with Java(Springboot)
-                                    and relational/NoSQL databases. I also dabble with a few frontend technologies 
-                                    like React and TailwindCSS! Checkout my projects below to see what I'm working on. 
+                                <p class="lg:text-xl md:text-base text-left leading-loose">
+                                    I'm a software developer who loves programming with a variety of technologies!
+                                    My main programming language is Java and I enjoy developing backend services with
+                                    Spring Boot and working with relational/NoSQL databases. I've been expanding my 
+                                    programming knowledge by dabbling in the frontend with React and Tailwind CSS!
+                                    Checkout my full github profile below, and feel free to contact me.
                                 </p>
                                 <div class="space-x-5">
-                                    <button class="btn-gold">Github</button>
+                                    <button class="btn-gold" onclick="window.open('https://github.com/DathanStoneDev', '_blank')">Github</button>
                                     <button class="btn-gold">Contact Me!</button>
+                                </div>
+                                <div>
+                                    <h1 class="font-bold text-2xl pb-8">Technologies</h1>
+                                    <div class="flex flex-wrap gap-4">
+                                        <img class="tech-icons" src="images/html-5.png" alt="html-5 Icon">
+                                        <img class="tech-icons" src="images/css.png" alt="css Icon">
+                                        <img class="tech-icons" src="images/tailwind.svg" alt="Tailwind css Icon">
+                                        <img class="tech-icons" src="images/js.png" alt="Javascript Icon">
+                                        <img class="tech-icons" src="images/react.png" alt="React Icon">
+                                        <img class="tech-icons" src="images/java.png" alt="Java Icon">
+                                        <img class="tech-icons" src="images/icons8-spring-logo-48.png" alt="Spring Icon">
+                                        <img class="tech-icons" src="images/mysql.png" alt="MySQL Icon">
+                                        <img class="tech-icons" src="images/icons8-mongodb-48.png" alt="Mongo DB Icon">
+                                    </div>
                                 </div>
                             </div>
     
     
                             <div class="">
-                                <img src="images/intro-image.png" alt="person that is coding">
+                                <img class="object-cover w-full" src="images/Coding _Two Color.svg" alt="person that is coding">
                             </div>
     
                         
@@ -69,13 +85,17 @@
 
                 </section>
 
-                <section> <!--Projects Section-->
+                <hr class="border-darkGold border-2">
 
-                    <div> <!--Card wrapper-->
+                <section class="mt-10"> <!--Projects Section-->
+
+                    <h1 class="font-bold text-6xl text-center pb-6">Projects</h1>
+
+                    <div class="flex flex-wrap mt-8 justify-between"> <!--Card wrapper-->
                         <!--Project Cards Here-->
-                        <div>
+                        <div class="box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center">
                             <div>
-                                <span></span> <!--Title of project-->
+                                <span>PokeLocator</span> <!--Title of project-->
                             </div>
                             <img src="" alt=""> <!--Image of project-->
                             <div>
@@ -88,6 +108,40 @@
                                 <button>Github Repo</button> <!--Links-->
                             </div>
                         </div>
+
+                        <div class="box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center">
+                            <div>
+                                <span>PokeLocator</span> <!--Title of project-->
+                            </div>
+                            <img src="" alt=""> <!--Image of project-->
+                            <div>
+                               <span></span>  <!--Description of Project-->
+                            </div>
+                            <div>
+                                <span></span> <!--Technologies used-->
+                            </div>
+                            <div>
+                                <button>Github Repo</button> <!--Links-->
+                            </div>
+                        </div>
+
+                        <div class="box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center">
+                            <div>
+                                <span>PokeLocator</span> <!--Title of project-->
+                            </div>
+                            <img src="" alt=""> <!--Image of project-->
+                            <div>
+                               <span></span>  <!--Description of Project-->
+                            </div>
+                            <div>
+                                <span></span> <!--Technologies used-->
+                            </div>
+                            <div>
+                                <button>Github Repo</button> <!--Links-->
+                            </div>
+                        </div>
+
+                        
 
                     </div>
                 </section>
@@ -102,7 +156,7 @@
         
 
 
-        <footer></footer>
+        <footer class="bg-black mt-6">Si</footer>
         <script src="script.js" async defer></script>
     </body>
 </html>

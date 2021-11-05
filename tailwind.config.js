@@ -6,6 +6,9 @@ module.exports = {
       colors: {
       "darkGold": '#EEBC1D'
      },
+     fontFamily: {
+       "Roboto": ['Roboto', 'sans-serif']
+     }
     },
   },
   variants: {

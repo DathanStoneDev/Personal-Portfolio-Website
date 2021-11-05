@@ -22475,6 +22475,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-Roboto {
+  font-family: Roboto, sans-serif;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -32425,6 +32429,8 @@ video {
   content: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 .btn-gold {
   border-radius: 9999px;
 }
@@ -32453,6 +32459,11 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(238, 188, 29, var(--tw-ring-opacity));
+}
+
+.tech-icons {
+  height: 2.5rem;
+  width: 2.5rem
 }
 
 @media (min-width: 640px) {
@@ -54263,6 +54274,10 @@ video {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-Roboto {
+    font-family: Roboto, sans-serif;
   }
 
   .sm\:text-xs {
@@ -85669,6 +85684,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-Roboto {
+    font-family: Roboto, sans-serif;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -117071,6 +117090,10 @@ video {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-Roboto {
+    font-family: Roboto, sans-serif;
   }
 
   .lg\:text-xs {
@@ -148477,6 +148500,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-Roboto {
+    font-family: Roboto, sans-serif;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -179879,6 +179906,10 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-Roboto {
+    font-family: Roboto, sans-serif;
   }
 
   .\32xl\:text-xs {

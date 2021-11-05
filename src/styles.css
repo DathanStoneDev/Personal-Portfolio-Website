@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 .btn-gold {
     @apply rounded-full py-3 px-6 ring-2 ring-darkGold font-bold hover:text-darkGold hover:bg-black;
+}
+
+.tech-icons {
+    @apply w-10 h-10
 }
