@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.btn-gold {
-    @apply rounded-full py-3 px-6 ring-2 ring-darkGold font-bold hover:text-darkGold hover:bg-black;
+.btn-blue {
+    @apply rounded-full py-3 px-6 ring-2 ring-primary font-bold hover:text-primary hover:bg-black;
 }
 
 .tech-icons {
     @apply w-10 h-10
+}
+
+.card {
+    @apply bg-white box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center;
 }

@@ -9,91 +9,65 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body class="mx-24 font-Roboto">
+    <body class="font-Montserrat">
+
+        <!--Header/Navbar section-->
+        <header>
+            <nav class="container flex items-center py-4 mt-4">
+                <h1 class="font-extrabold text-3xl text-primary">
+                    <a href="/">DevStone</a>
+                </h1>
+                <ul class="flex flex-1 gap-10 justify-end items-center font-bold">
+                    <li>
+                        <a class="hover:text-primary" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-primary" href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-primary" href="#">Contact Me</a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 dark:text-primary" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                          </svg>
+                    </li>
+            </nav>
+        </header>
        
-        <div> <!--Content Wrapper-->
-            <div>
-                <nav class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mt-6">
-                    <div>
-                        <h1 class="font-extrabold text-3xl text-darkGold">
-                            <a href="/">DevStone</a>
-                        </h1>
-                    </div>
-                    <div class="flex justify-end">
-                        <ul class="flex space-x-8 font-bold">
-                            <li>
-                                <a class="hover:text-darkGold" href="#">About</a>
-                            </li>
-                            <li>
-                                <a class="hover:text-darkGold" href="#">Projects</a>
-                            </li>
-                            <li>
-                                <a class="hover:text-darkGold" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div><!--Navbar end-->
+
+        <!--Hero Section-->
 
             <main>
-
-                <section> <!--Welcome/About Section-->
-
-                        <div class="grid lg:grid-cols-2 mt-24"> <!--Wrapper-->
-
-                            <div class="max-w-3xl space-y-12 text-left">
-                                <header class="font-bold text-6xl pt-8">
-                                    <h1>Hi, I'm Dathan!</h1>
-                                </header>
-                                <p class="lg:text-xl md:text-base text-left leading-loose">
+                <section class="relative lg:h-5/6"> <!--Welcome/About Section-->
+                        <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+                            <!--Content-->
+                            <div class="flex flex-1 flex-col items-center lg:items-start">
+                                <h2 class="font-bold lg:text-5xl lg:text-left mb-4">Hi, I'm Dathan.</h2>
+                                <h3 class="font-bold lg:text-2xl text-almost-black mb-4">Software Developer</h3>
+                                <p class="lg:text-xl md:text-base text-almost-black lg:text-left mb-6 leading-loose">
                                     I'm a software developer who loves programming with a variety of technologies!
-                                    My main programming language is Java and I enjoy developing backend services with
-                                    Spring Boot and working with relational/NoSQL databases. I've been expanding my 
-                                    programming knowledge by dabbling in the frontend with React and Tailwind CSS!
-                                    Checkout my full github profile below, and feel free to contact me.
+                                    Checkout my portfolio to see some of my projects and technologies I use.
                                 </p>
-                                <div class="space-x-5">
-                                    <button class="btn-gold" onclick="window.open('https://github.com/DathanStoneDev', '_blank')">Github</button>
-                                    <button class="btn-gold">Contact Me!</button>
-                                </div>
-                                <div>
-                                    <h1 class="font-bold text-2xl pb-8">Technologies</h1>
-                                    <div class="flex flex-wrap gap-4">
-                                        <img class="tech-icons" src="images/html-5.png" alt="html-5 Icon">
-                                        <img class="tech-icons" src="images/css.png" alt="css Icon">
-                                        <img class="tech-icons" src="images/tailwind.svg" alt="Tailwind css Icon">
-                                        <img class="tech-icons" src="images/js.png" alt="Javascript Icon">
-                                        <img class="tech-icons" src="images/react.png" alt="React Icon">
-                                        <img class="tech-icons" src="images/java.png" alt="Java Icon">
-                                        <img class="tech-icons" src="images/icons8-spring-logo-48.png" alt="Spring Icon">
-                                        <img class="tech-icons" src="images/mysql.png" alt="MySQL Icon">
-                                        <img class="tech-icons" src="images/icons8-mongodb-48.png" alt="Mongo DB Icon">
-                                    </div>
+                                <div class="flex justify-center gap-6">
+                                    <button class="btn-blue" onclick="window.open('https://github.com/DathanStoneDev', '_blank')">Github</button>
+                                    <button class="btn-blue">Contact Me!</button>
                                 </div>
                             </div>
-    
-    
-                            <div class="">
-                                <img class="object-cover w-full" src="images/Coding _Two Color.svg" alt="person that is coding">
+                            <!--Image-->
+                            <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0">
+                                <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/Coding _Two Color.svg" alt="">
                             </div>
-    
-                        
-                            </div>
-                            
                         </div>
-                   
-
                 </section>
 
-                <hr class="border-darkGold border-2">
-
-                <section class="mt-10"> <!--Projects Section-->
+                <section class="bg-secondary lg:h-screen"> <!--Projects Section-->
 
                     <h1 class="font-bold text-6xl text-center pb-6">Projects</h1>
 
-                    <div class="flex flex-wrap mt-8 justify-between"> <!--Card wrapper-->
+                    <div class="flex flex-wrap mt-8 gap-6 justify-center px-4 pb-6"> <!--Card wrapper-->
                         <!--Project Cards Here-->
-                        <div class="box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center">
+                        <div class="card">
                             <div>
                                 <span>PokeLocator</span> <!--Title of project-->
                             </div>
@@ -109,7 +83,7 @@
                             </div>
                         </div>
 
-                        <div class="box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center">
+                        <div class="card">
                             <div>
                                 <span>PokeLocator</span> <!--Title of project-->
                             </div>
@@ -125,10 +99,8 @@
                             </div>
                         </div>
 
-                        <div class="box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center">
-                            <div>
-                                <span>PokeLocator</span> <!--Title of project-->
-                            </div>
+                        <div class="card">
+                            <p class="pt-4">PokeLocator</p>
                             <img src="" alt=""> <!--Image of project-->
                             <div>
                                <span></span>  <!--Description of Project-->
@@ -146,7 +118,9 @@
                     </div>
                 </section>
 
-                <section> <!--Contact Section-->
+                <section class="my-10 lg:h-screen"> <!--Contact Section-->
+
+                    <h1 class="font-bold text-6xl text-center pb-6">Contact</h1>
 
                 </section>
                 
@@ -156,7 +130,7 @@
         
 
 
-        <footer class="bg-black mt-6">Si</footer>
+        <footer class="bg-primary">Created By: Dathan Stone</footer>
         <script src="script.js" async defer></script>
     </body>
 </html>
