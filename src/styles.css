@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .btn-blue {
-    @apply rounded-full py-3 px-6 ring-2 ring-primary font-bold hover:text-primary hover:bg-black;
+    @apply rounded-lg py-3 px-6 bg-primary font-bold text-white hover:bg-black cursor-pointer;
 }
 
 .tech-icons {
@@ -14,4 +14,8 @@
 
 .card {
     @apply bg-white box-border min-w-min lg:w-3/12 w-full lg:mb-0 mb-10 h-96 rounded-lg shadow-xl text-center;
+}
+
+html {
+    scroll-behavior: smooth;
 }

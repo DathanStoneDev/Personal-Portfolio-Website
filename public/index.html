@@ -13,7 +13,7 @@
 
         <!--Header/Navbar section-->
         <header>
-            <nav class="container flex items-center py-4 mt-4">
+            <nav class="container flex items-center py-4 mt-8">
                 <h1 class="font-extrabold text-3xl text-primary">
                     <a href="/">DevStone</a>
                 </h1>
@@ -39,7 +39,7 @@
         <!--Hero Section-->
 
             <main>
-                <section class="relative lg:h-screen"> <!--Welcome/About Section-->
+                <section class="lg:h-auto mb-24"> <!--Welcome/About Section-->
                         <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
                             <!--Content-->
                             <div class="flex flex-1 flex-col items-center lg:items-start">
@@ -49,7 +49,7 @@
                                     I'm a software developer who loves programming with a variety of technologies!
                                     Checkout my portfolio to see some of my projects and technologies I use.
                                 </p>
-                                <div class="flex justify-center gap-6">
+                                <div class="flex justify-center gap-6 pt-6">
                                     <button class="btn-blue" onclick="window.open('https://github.com/DathanStoneDev', '_blank')">Github</button>
                                     <button class="btn-blue">Contact Me!</button>
                                 </div>
@@ -59,19 +59,30 @@
                                 <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/main.svg" alt="">
                             </div>
                         </div>
-                        <div class="flex justify-center flex-1 mt-28">
+                        <div class="flex justify-center flex-1 mt-48">
                             <svg class="animate-bounce rounded-full ring-2 ring-primary w-8 h-8 bg-primary text-white" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                               </svg>
                         </div>
                 </section>
 
-                <section class="bg-secondary lg:h-screen"> <!--Projects Section-->
+                <section class="lg:h-auto mb-24">
+                    <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+                        <div class="flex flex-1 flex-col items-center lg:items-start">
+                            <h2 class="font-bold lg:text-5xl lg:text-left mb-4">About Me</h2>
+                            <p class="lg:text-xl md:text-base text-almost-black lg:text-left mb-6 leading-loose">Hehehe</p>
+                        </div>
+                        <div class="flex flex-1">
 
-                    <h1 class="font-bold text-6xl text-center pb-6">Projects</h1>
+                        </div>
+                    </div>
+                </section>
 
-                    <div class="flex flex-wrap mt-8 gap-6 justify-center px-4 pb-6"> <!--Card wrapper-->
-                        <!--Project Cards Here-->
+                <section class="lg:h-auto mb-24">
+                    <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28"> <!--Projects Section-->   
+                        <div class="flex flex-wrap mt-8 gap-6 justify-center px-4"> <!--Card wrapper-->
+                        
+                            <h2 class="font-bold lg:text-5xl lg:text-left mb-4">Portfolio</h2>    <!--Project Cards Here-->
                         <div class="card">
                             <div>
                                 <span>PokeLocator</span> <!--Title of project-->
@@ -121,9 +132,10 @@
                         
 
                     </div>
+                    </div>
                 </section>
 
-                <section class="my-10 lg:h-screen"> <!--Contact Section-->
+                <section class="lg:h-screen"> <!--Contact Section-->
 
                     <h1 class="font-bold text-6xl text-center pb-6">Contact</h1>
 
